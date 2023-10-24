@@ -12,7 +12,7 @@ upstream a more durable approach to allowing us to do this, at which
 point this patch can be removed.
 
 diff --git a/config/gni/devtools_grd_files.gni b/config/gni/devtools_grd_files.gni
-index d6598ef89a5a232e9593391dc2240ab9ff98e428..7f6ca68898ae67dd563f4ff5b358a635cbc1f4fc 100644
+index 4c752a14e03d66050bec98f4817e139e99fe531c..c21171cfa718e373b5ee4fe813dc2b5ab4af04e3 100644
 --- a/config/gni/devtools_grd_files.gni
 +++ b/config/gni/devtools_grd_files.gni
 @@ -632,6 +632,7 @@ grd_files_release_sources = [
